@@ -42,6 +42,8 @@
     NSString *_password;
 }
 
+@property (assign) NSObject <MGTwitterEngineDelegate> *delegate;
+
 #pragma mark Class management
 
 // Constructors
